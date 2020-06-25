@@ -13,6 +13,7 @@ public class PantaUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+
         return new User("foo", "{noop}foo", new ArrayList<>());
     }
 }

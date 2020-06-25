@@ -1,2 +1,9 @@
 server:
   port: 9999
+
+security:
+  oauth2:
+    clientId:
+    client-secret: which-secret
+    token-validity-seconds:
+    signing-key:
